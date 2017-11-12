@@ -1,0 +1,142 @@
+.main-header .navbar {
+    margin-left: 270px;
+}
+
+.main-sidebar, .left-side {
+    width: 270px;
+}
+
+.main-header .logo {
+    text-align: left;
+    width: 270px;
+}
+
+.content-wrapper, .right-side, .main-footer {
+    margin-left: 270px;
+}
+
+.skin-blue .sidebar-menu > li.header {
+    color: #fafafa;
+}
+
+.thumbnail .caption {
+  margin:  0px;
+  padding:  0px;
+  font-size:  12px;
+}
+
+.thumbnail .caption > h5,p{
+  margin:  0px;
+  padding:  0px;
+}
+
+.thumbnail .caption > h5 {
+  font-size:  12px;
+}
+
+/************************ Login Page ********************************/
+.panel-heading {
+    padding: 5px 15px;
+}
+
+.panel-footer {
+    padding: 1px 15px;
+    color: #A0A0A0;
+}
+
+.profile-img {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profile-img-auth {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+/***************** Pantalla Inicio *********************************/
+.btn-circle {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 75px;
+    white-space: normal;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.75;
+
+}
+
+.btn-circle:hover {
+    color: white;
+    opacity: 1;
+}
+
+/******************* Logo *****************************/
+.logo-header {
+    margin-top: -60px;
+    background-color: #428bca;
+    border-color: #337ab7;
+    width: 300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+.navbar-header {
+
+    margin-top: 20px;
+margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right:300px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .navbar-brand {
+    margin-left: 10px;
+}
+
+.credit-footer {
+    background-color: #428bca;
+    border-color: #337ab7;
+    width: 400px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: #f0f0f0;
+    font-size: small;
+}
+
+.credit-footer > p > a {
+    color: #FFFFFF;
+}
+
+.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+html, body {
+    height: 100%;
+}
